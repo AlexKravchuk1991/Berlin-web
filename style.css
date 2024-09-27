@@ -1,0 +1,309 @@
+*{
+    box-sizing: border-box;
+}
+
+
+head{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 400;
+
+  
+}
+
+header{
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+    
+}
+
+.nav-header{
+    width: 1200px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 2px 5px;
+    border-bottom: 0px solid;
+    padding: 6px 12px;
+    /* display: flex;
+    flex-direction: column;
+    gap: 2px; */
+    
+
+}
+
+.link-nav-header{
+    margin: 0;
+    max-height: 4.9em;
+    line-height: 1.2;
+    overflow: hidden;
+    padding: 3px;
+    font-size: 20px;
+}
+
+.left-link-header {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* .fa-solid{
+font-size: xx-large !important;
+} */
+ .fa-universal-access{
+    font-size: 35px !important;
+    display: flex;
+   
+   
+ }
+
+.fa-magnifying-glass{
+    font-size: 32px !important;
+    
+}
+
+.fa-bars{
+    font-size: 32px;
+}
+.right-nav-header-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.title-left-header{
+
+margin: 0;
+padding: 0;
+}
+
+.center-nav-header{
+    width: 650px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 14.5px;
+    
+}
+
+.info-center-nav-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 17.6px;
+}
+
+.right-nav-header{
+    margin-left: 15px;
+    margin-bottom: 8px;
+    width: 162px;
+    display: flex;
+    font-size: 11px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.main-proposition-conteiner{
+    margin: 0;
+    width: 1200px;
+    height: 450px;
+    font-size: 38px;
+    color: white;
+    background-image: url(./Pictures/berlin-panorama.png);
+    position: relative;
+}
+
+.title-proposition-conteiner{
+    padding: 0;
+position: absolute;
+top: 300px;
+left: 50px;
+}
+
+.main-content-info{
+    margin-top: 70px;
+    width: 980px;
+    margin-left: 110px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.main-content-info-title{
+    width: 400px;
+    height: 26px;
+    font-size: 22px;
+    
+}
+
+.main-content-info-turism-tours{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin-top: 10px;
+
+}
+
+.img-container{
+    width: 313px;
+    height: 235px;
+}
+
+
+
+.picture-info-conteiner{
+    position:absolute;
+}
+
+.arrow-right-in-img{
+    width: 36px;
+    height: 36px;
+    background-color: #E40422;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-proposition{
+    font-size: 17px;
+    line-height: 23px;
+    margin-top: 235px;
+}
+
+.description-of-proposition{
+    font-size: 16px;
+}
+
+.main-nav-bar{
+    width: 1200px;
+    height: 374px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    background-color: #F5F5F5;
+    ;
+}
+
+.arrow-up{
+    width: 200px;
+    margin-right: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.fa-arrow-up{
+    margin-right: 5px;
+    width: 24px;
+    height: 24px;
+    background-color:#E40422;
+   
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  
+}
+
+.main-content-nav-bar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-left: 114px;
+    gap: 32px;
+}
+
+.main-content-nav-bar__wrapper{
+    width: 149.5px;
+    height: 279px;
+   
+}
+
+.main-nav-bar-title{
+    font-size: 17px;
+}
+
+ul{
+    padding: 0
+;
+}
+li{
+    list-style-type: none;
+    margin-top: 8px;
+    font-size: 15px;
+   
+}
+
+li > a{
+    text-decoration: none;
+    color: black;
+} 
+
+footer{
+    width: 1200px;
+    height: 483px;
+    background-color: #545454;
+
+}
+
+.footer-info{
+    display: flex;
+    flex-direction: column;
+    position: static;
+}
+
+.footer-logo-img{
+    position: relative;
+    left: 24px;
+    top:17px;
+}
+
+.footer-nav-bar{
+    margin-left: 114px;
+    margin-top: 64px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 33px;
+}
+
+.footer-nav-bar-links{
+    width: 149.5px;
+
+    color: white;
+}
+
+.footer-nav-bar-links a{
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.footer-end-info{
+    color: white;
+    margin-left: 114px;
+    width: 320px;
+    font-size: 15px;
+}
+
+h5{
+    font-size: 17px;
+}
+
+
+
