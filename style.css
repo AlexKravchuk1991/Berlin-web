@@ -17,6 +17,7 @@ header{
     position: sticky;
     top: 0;
     z-index: 1;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: white;
     
 }
@@ -65,6 +66,7 @@ font-size: xx-large !important;
 
 .fa-magnifying-glass{
     font-size: 32px !important;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 
@@ -92,6 +94,7 @@ padding: 0;
     justify-content: center;
     align-items: center;
     margin-top: 14.5px;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 
